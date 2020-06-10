@@ -44,7 +44,9 @@ For convenience, switch to superuser.
    
    Format the partition to ext4:
    
+   ```
    mkfs.ext4 /dev/mapper/docker
+   ```
    
 4. Create a folder where we will mount the partition:
 
